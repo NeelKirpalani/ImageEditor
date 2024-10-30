@@ -1,0 +1,41 @@
+node_modules
+# Keep environment variables out of version control
+.env
+.DS_Store
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/my-nextjs-app/node_modules
+/my-nextjs-app/.pnp
+/my-nextjs-app/.pnp.js
+/my-nextjs-app/.yarn/install-state.gz
+
+# testing
+/my-nextjs-appcoverage
+
+# next.js
+/my-nextjs-app/.next/
+/my-nextjs-app/out/
+
+# production
+/my-nextjs-app/build
+
+# misc
+/my-nextjs-app/.DS_Store
+/my-nextjs-app/*.pem
+
+# debug
+/my-nextjs-app/npm-debug.log*
+/my-nextjs-app/yarn-debug.log*
+/my-nextjs-app/yarn-error.log*
+
+# local env files
+/my-nextjs-app/.env*.local
+
+# vercel
+/my-nextjs-app/.vercel
+
+# typescript
+/my-nextjs-app/*.tsbuildinfo
+/my-nextjs-app/next-env.d.ts
